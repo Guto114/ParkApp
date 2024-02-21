@@ -43,3 +43,19 @@ a{
     align-items: center;
     align-content: space-around;
 }
+
+/* pagina de loging */
+.btSubmit{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+.corpoLoging{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    padding: 5vw 2vh;
+    margin: 2%;
+}
