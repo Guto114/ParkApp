@@ -1,5 +1,9 @@
 body{
-    margin-top: 20px;
+    margin-top: 0;
+}
+
+.extendnav{
+  height: 40px;
 }
 
 /* aqui comeca o botao de tres linahs */
@@ -59,3 +63,15 @@ a{
     padding: 5vw 2vh;
     margin: 2%;
 }
+
+
+.user{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-width: 1;
+    border-bottom: 1px solid red ;
+    width: 100%;
+}
+
+/* fim do loging */
