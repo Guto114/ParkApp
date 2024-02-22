@@ -2,11 +2,8 @@ body{
     margin-top: 0;
 }
 
-nav.standar{
-    background-color: solid red;
-    width: 100%;
-    height: 10vh;
-    margin: 0;
+.extendnav{
+  height: 40px;
 }
 
 /* aqui comeca o botao de tres linahs */
