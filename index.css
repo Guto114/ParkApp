@@ -4,6 +4,8 @@ body{
 
 .extendnav{
   height: 40px;
+  display: flex;
+  align-items: center;
 }
 
 /* aqui comeca o botao de tres linahs */
@@ -74,4 +76,14 @@ a{
     width: 100%;
 }
 
+.checkBox{
+    font-family: helvetica,
+}
+
+.centralizartxt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
 /* fim do loging */
