@@ -1,12 +1,15 @@
 body{
     margin-top: 0;
 }
-
+/* nav bar padrao do app */
 .extendnav{
   height: 40px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  position: relative;
 }
+
 
 /* aqui comeca o botao de tres linahs */
 .btn{
@@ -29,6 +32,10 @@ body{
 .btn:hover div {
     background-color:#f2f2f2;
 
+}
+.position{
+    position: absolute;
+    left: 0;
 }
 /* TESTANDO BRANCHES */
 /* aqui termina o botao de tres linhas */
