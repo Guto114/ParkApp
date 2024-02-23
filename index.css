@@ -37,9 +37,36 @@ body{
     position: absolute;
     left: 0;
 }
-/* TESTANDO BRANCHES */
+
 /* aqui termina o botao de tres linhas */
 
+/* aqui comeca o mini relatorio */
+.minirelatorio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.informDeMini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.vlores{
+    border: 2px solid red;
+}
+
+.objetosNoPatio{
+    border: 2px solid red;
+}
+/* aqui termina o mini relatorio */
 a{
     text-decoration: none ;
 }
