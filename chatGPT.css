@@ -1,7 +1,5 @@
 body{
     margin-top: 0;
-    font-family: Dosis;
-    font-weight: 800; 
 }
 /* nav bar padrao do app */
 .extendnav{
@@ -21,20 +19,18 @@ body{
     flex-direction: column;
     background-color: transparent;
     border-color: transparent;
-    font-family: Dosis;
-    font-weight: 800; 
 }
 
 .btn div{
     height: 4px ;
-    background-color: #333d41; 
+    background-color: #222831; 
     margin: 2px ;
     border-radius: 25px ;
     width: 25px ;
 }
 
 .btn:hover div {
-    background-color:#939995;
+    background-color:#f2f2f2;
 
 }
 .position{
@@ -101,9 +97,7 @@ a{
     align-items: center;
     align-content: space-around;
     padding: 5vw 2vh;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 0;
+    margin: 2%;
 }
 
 
@@ -114,8 +108,6 @@ a{
     border-width: 1;
     border-bottom: 1px solid red ;
     width: 100%;
-    font-family: Dosis;
-    font-weight: 800; 
 }
 
 .checkBox{
@@ -128,40 +120,4 @@ a{
     align-items: center;
     align-content: space-around;
 }
-
-.logo{
-    margin-top: 3vh;
-    width: 100vw;
-}
-
-.imagem{
-    width: 20vw;
-
-}
 /* fim do loging */
-
-/* Minirelatorio na pagina principal */
-
-hr.style-two {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
-.toTheLeftMiniReport{
-    text-align: start;
-    font-size: 2.5vw;
-}
-
-.toTheRightMiniReport{
-    text-align: end;
-    font-size: 2.5vw;
-}
-
-.logo-mini-relatorio{
-    background-image: url("images-logo/carparkapp-removebg-preview.png");
-    background-repeat: no-repeat;
-    background-size: 40%;
-   opacity: 0,01;
-    background-position: center;
-}
