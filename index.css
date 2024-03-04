@@ -139,3 +139,29 @@ a{
 
 }
 /* fim do loging */
+
+/* Minirelatorio na pagina principal */
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.toTheLeftMiniReport{
+    text-align: start;
+    font-size: 2.5vw;
+}
+
+.toTheRightMiniReport{
+    text-align: end;
+    font-size: 2.5vw;
+}
+
+.logo-mini-relatorio{
+    background-image: url("images-logo/carparkapp-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+   opacity: 0,01;
+    background-position: center;
+}
