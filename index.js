@@ -1,3 +1,4 @@
+#!/us/bin/env node
 const express = require ('express');
 const bodyParser = require ('body-parser');
 
@@ -16,3 +17,4 @@ res.send('uhuuuuu');
 app.listen(3000, () =>{
     console.log('listening');
 });
+
