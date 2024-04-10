@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "email": "luis@luis.com",
+    "id": "d25d9966",
+    "bla": 2,
+    "password": "funciona sim",
+    "nome": "luis kras",
+    "tretuuopa": "treino"
+  }
+]

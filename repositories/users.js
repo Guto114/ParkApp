@@ -53,12 +53,22 @@ class UsersRepository {
         const filteredRecords = records.filter(record => record.id !== id);
         await this.writeAll(filteredRecords);
     }
+    async update (id, attrs){
+        const records = await this.getAll();
+        const record = records.find(record => record.id === id);
+        
+        if (!record){
+            throw new Error(`Nao encontramos dados com o id ${id}`);
+        }
+        Object.assign(record,attrs);
+        await this.writeAll(records);
+    }
 }
 
 const test = async () =>{
     const repo = new UsersRepository('usuarios.json');
 
-    await repo.delete('9fac54fb');
+    await repo.update('d25d9966',{password:'funciona sim', tretuuopa: 'treino'});
 
    
 };
