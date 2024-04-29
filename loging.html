@@ -18,27 +18,31 @@
   <nav class="bg-danger extendnav centralizartxt">Estacionamento App</nav>
   <div class="d-flex justify-content-center logo"><img class="imagem" src="images-logo/carparkapp-removebg-preview.png" alt="logo da carparkapp"></div>
     <div class="corpoLoging">
-        <form class="row g-2 principal">
+        <form method= "POST" class="row g-2 principal">
           <div class="mb-3 ">
             <label for="exampleInputEmail1" class="email" ></label>
             <input type="email" name="email" class="user" id="exampleInputEmail1" placeholder="usuario@seuemail.com.br">
           </div>
           <div class="mb-3 " >
             <label for="exampleInputPassword1" class="form-label senha"></label>
-            <input type="password" class="user" name="senha" id="exampleInputPassword1" placeholder="senha">
+            <input type="password" class="user" name="password" id="exampleInputPassword1" placeholder="senha">
+          </div>
+          <div class="mb-3 " >
+            <label for="exampleInputPassword1" class="form-label senha"></label>
+            <input type="passwordConfirmation" class="user" name="passwordConfirmation" id="exampleInputPassword1" placeholder="Confirmacao de senha">
           </div>
           <div>
             <input type="checkbox" id="savePassword" name="savePassword" value="savePassword">
             <label for="savePassword" class="checkBox"> Lembre de mim</label>
           </div>
          <!-- aqui comeca os botoes para entrar ou se cadastrar -->
-          <div class="btSubmit" onclick="login()">
-            <a type="submit" class="btn btn-outline-primary">Logar</a>
-            <a class="no btn btn-outline-danger" type="button" href="#">Inscrever-se</a>
+          <div class="btSubmit" >
+            <button type="submit" class="btn btn-outline-primary">Logar</button>
+            <button class="no btn btn-outline-danger" type="button" >Inscrever-se</button>
           </div>
         </form>
       </div>
-
+      <div id="dynamicText"></div>
 
 
     <!-- para usar o bootstrap tem que usar o link do javascript aqui -->

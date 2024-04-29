@@ -1,0 +1,23 @@
+[
+  {
+    "email": "barroskrassusky@gmail.com"
+  },
+  {
+    "email": "barroskra2ssusky@gmail.com",
+    "password": "123",
+    "id": "b26a0500",
+    "bla": 1
+  },
+  {
+    "email": "gustavo@hotmail.com",
+    "password": "111",
+    "id": "8ff21a2b",
+    "bla": 1
+  },
+  {
+    "email": "treta@sera.com",
+    "password": "123",
+    "id": "89eaf97b",
+    "bla": 6
+  }
+]
